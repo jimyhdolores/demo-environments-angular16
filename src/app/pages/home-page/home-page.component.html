@@ -1,0 +1,10 @@
+<div class="home-container">
+	<mat-card class="home-card" *ngFor="let item of characters" [routerLink]="['/character/' + item.id]">
+		<img mat-card-image [src]="item.image" [alt]="item.name" />
+
+		<mat-card-content>
+			<mat-card-title>{{ item.name }}</mat-card-title>
+			<mat-card-subtitle>{{ item.species }}</mat-card-subtitle>
+		</mat-card-content>
+	</mat-card>
+</div>

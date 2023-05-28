@@ -1,13 +1,10 @@
 import { Component } from '@angular/core';
-import { CommonModule } from '@angular/common';
+import { ContainerModule } from './container/container.module';
 
 @Component({
-  selector: 'app-root',
-  standalone: true,
-  imports: [CommonModule],
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
+	selector: 'app-root',
+	standalone: true,
+	imports: [ContainerModule],
+	template: `<app-container></app-container>`
 })
-export class AppComponent {
-  title = 'demo-environments-angular';
-}
+export class AppComponent {}

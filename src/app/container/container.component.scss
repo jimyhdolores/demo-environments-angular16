@@ -1,0 +1,34 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  .header {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+
+    &__content {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      max-width: 1200px;
+      min-width: 500px;
+      width: 100%;
+      padding: 16px;
+    }
+  }
+
+  &__content {
+    max-height: 80vh;
+    overflow-y: auto;
+    padding: 16px;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+
+    .main {
+      width: 70%;
+    }
+  }
+}

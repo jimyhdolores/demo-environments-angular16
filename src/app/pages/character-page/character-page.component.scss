@@ -1,0 +1,33 @@
+.cp-container {
+  display: inline-flex;
+  background-color: white;
+  width: 100%;
+  border-radius: 8px;
+
+  &__image {
+    border-top-left-radius: inherit;
+    border-bottom-left-radius: inherit;
+  }
+
+  .cp-detail {
+    flex: 1;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 2em;
+    .cp-item {
+      display: flex;
+      flex-direction: column;
+
+      &__title {
+        font-weight: 500;
+        font-size: 14px;
+      }
+
+      &__description {
+        font-size: 16px;
+        color: #5a5a5a;
+      }
+    }
+  }
+}

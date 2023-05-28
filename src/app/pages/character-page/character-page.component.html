@@ -1,0 +1,39 @@
+<div class="cp-container" *ngIf="character$ | async as character">
+  <img
+    class="cp-container__image"
+    [src]="character.image"
+    [alt]="character.image"
+  />
+
+  <div class="cp-detail">
+    <div class="cp-item">
+      <span class="cp-item__title">Name</span>
+      <span class="cp-item__description">{{ character.name }} </span>
+    </div>
+
+    <div class="cp-item">
+      <span class="cp-item__title"> Status</span>
+      <span class="cp-item__description">{{ character.status }} </span>
+    </div>
+
+    <div class="cp-item">
+      <span class="cp-item__title">Species</span>
+      <span class="cp-item__description">{{ character.species }} </span>
+    </div>
+
+    <div class="cp-item">
+      <span class="cp-item__title">Gender</span>
+      <span class="cp-item__description">{{ character.gender }} </span>
+    </div>
+
+    <div class="cp-item">
+      <span class="cp-item__title">Origin</span>
+      <span class="cp-item__description">{{ character.origin.name }} </span>
+    </div>
+
+    <div class="cp-item">
+      <span class="cp-item__title">Location</span>
+      <span class="cp-item__description">{{ character.location.name }} </span>
+    </div>
+  </div>
+</div>
