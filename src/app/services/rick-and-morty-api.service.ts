@@ -14,7 +14,7 @@ export class RickAndMortyApiService {
 	private URL_API = environment.api + '/character';
 
 	getAllCharacter(): Observable<ICharacter[]> {
-		console.log('---PROBANDO NGX-ENV', URL_API);
+		console.log('---PROBANDO NGX-ENV', this.URL_API);
 
 		return this.httpClient.get<IResponseAllCharacter>(this.URL_API).pipe(map((response) => response.results));
 	}
