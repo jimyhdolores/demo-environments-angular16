@@ -7,4 +7,8 @@ import { ContainerModule } from './container/container.module';
 	imports: [ContainerModule],
 	template: `<app-container></app-container>`
 })
-export class AppComponent {}
+export class AppComponent {
+	constructor() {
+		// console.log(import.meta.env.NG_APP_API);
+	}
+}
