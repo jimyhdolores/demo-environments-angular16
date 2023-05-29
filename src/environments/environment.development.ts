@@ -1,3 +1,5 @@
-export const environment = {
-	api: import.meta.env.NG_APP_API
-};
+import { commonEnvironment } from './environment.common';
+
+const env: Partial<typeof commonEnvironment> = { valor1: 'valor 11' };
+
+export const environment = { ...commonEnvironment, ...env };

@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { environment } from '../environments/environment';
 import { ContainerModule } from './container/container.module';
 
 @Component({
@@ -9,6 +10,6 @@ import { ContainerModule } from './container/container.module';
 })
 export class AppComponent {
 	constructor() {
-		// console.log(import.meta.env.NG_APP_API);
+		console.log(environment.valor1);
 	}
 }
