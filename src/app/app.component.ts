@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { environment } from '../environments/environment';
 import { ContainerModule } from './container/container.module';
 
 @Component({
@@ -7,4 +8,8 @@ import { ContainerModule } from './container/container.module';
 	imports: [ContainerModule],
 	template: `<app-container></app-container>`
 })
-export class AppComponent {}
+export class AppComponent {
+	constructor() {
+		console.log(environment.valor1);
+	}
+}
