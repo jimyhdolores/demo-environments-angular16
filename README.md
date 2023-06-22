@@ -1,27 +1,27 @@
-# DemoEnvironmentsAngular
+# USO DE ENVIRONMENTS EN ANGULAR 16
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.1.
+## ¡Hola, Coders! a partir de la versión 15 de Angular, la carpeta "environments" ya no forma parte del proyecto de plantilla al utilizar la CLI. Sin embargo, lo que es aún más importante es: ¿𝗘𝘀𝘁𝗮́𝘀 𝗵𝗮𝗰𝗶𝗲𝗻𝗱𝗼 𝗯𝘂𝗲𝗻 𝘂𝘀𝗼 𝗱𝗲 𝗹𝗼𝘀 𝗲𝗻𝘃𝗶𝗿𝗼𝗻𝗺𝗲𝗻𝘁𝘀? Si te perdiste el Stream donde hablamos este tema te dejo el resumen del video en YouTube.
 
-## Development server
+Si crees que mis videos te ayudan a mejorar profesionalmente, apoyame con tu suscripción.🤗
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Link del video [Environments Angular 16](https://youtu.be/-iWywOJF0hg)
 
-## Code scaffolding
+# Mis Redes
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+**Suscríbete a mi canal** 😎
 
-## Build
+**YouTube:** [LogiDev](https://www.youtube.com/@LogiDev)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+**Twitch:** [Jimy Dolores](https://www.twitch.tv/jimydolores)
 
-## Running unit tests
+**Sígueme en mis redes:**
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+👉Facebook : [LogiDev](https://facebook.com/LogiDev25)
 
-## Running end-to-end tests
+búscame como: [@LogiDev25](https://facebook.com/LogiDev25)
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+👉Instagram: [@jimyhdolores](https://instagram.com/jimydolores/)
 
-## Further help
+👉Twitter: [Jimy Dolores](https://twitter.com/jimydolores)
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+👉LinkedIn:[Jimy Dolores](https://linkedin.com/in/jimyhuachodolores/)
